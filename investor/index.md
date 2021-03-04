@@ -1,1 +1,6 @@
-Todo: Figure how to get static styled page to work
+---
+layout: default
+---
+
+# Todo: 
+Figure how to get static styled page to work
