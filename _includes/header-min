@@ -1,0 +1,7 @@
+<header class="animated fadeInDown">
+  <div class="grid">
+    
+    {% include gravatar.html %}
+  
+  </div>
+</header>
