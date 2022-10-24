@@ -15,6 +15,7 @@ layout: min
     <form id="contact-form" action="https://api.web3forms.com/submit" method="POST">
 <!-- NB - MY OWN ACCESS KEY HERE         -->        
         <input type="hidden" name="access_key" value="6a366f03-15c4-4ac9-8221-1e04db2ed6e5">
+        <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
         <div>
          <label for="email">Your email:</label>
          <input type="email" name="email" required>
@@ -28,7 +29,7 @@ layout: min
         <input type="hidden" name="redirect" value="https://guy.antoine.ink/contact-success/">    
         </br>
   
-        <div class="h-captcha" data-captcha="true"></div>
+<!--         <div class="h-captcha" data-captcha="true"></div> -->
   
         <button type="submit">Contact Guy</button>
     </form>
@@ -36,7 +37,7 @@ layout: min
 </div>
 </section>
 
-<script src="https://web3forms.com/client/script.js" async defer></script>
+<!-- <script src="https://web3forms.com/client/script.js" async defer></script>
 <script>
   const form = document.getElementById('contact-form');
 
@@ -51,3 +52,4 @@ layout: min
       }
   });
 </script>
+ -->
