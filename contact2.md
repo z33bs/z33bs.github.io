@@ -1,4 +1,4 @@
 ---
-layout: contact
+layout: contact2
 permalink: /contact2/
 ---
