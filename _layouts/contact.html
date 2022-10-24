@@ -3,13 +3,6 @@ layout: main
 ---
 
 {% include header.html %}
-<!-- reCaptcha   -->
- <script src="https://www.google.com/recaptcha/api.js"></script>
- <script>
-   function onSubmit(token) {
-     document.getElementById("contact-form").submit();
-   }
- </script>
 
 <!-- https://web3forms.com -->
 <!-- API - with personalised access key -->
@@ -21,28 +14,17 @@ layout: main
 <!-- NB - MY OWN ACCESS KEY HERE         -->        
         <input type="hidden" name="access_key" value="6a366f03-15c4-4ac9-8221-1e04db2ed6e5">
         <div>
-         <label for="name">Name: </label>
-         <input type="text" name="name" required>
-        </div>
-        </br>
-        <div>
          <label for="email">Email:</label>
          <input type="email" name="email" required>
         </div>
         </br>
         <div>
-         <label for="message">Note: </label>
+         <label for="message">Message: </label>
          <textarea name="message" required></textarea>
         </div>
         <input type="hidden" name="redirect" value="https://web3forms.com/success">
         </br>
-<!-- reCaptcha v2  KEY HERE         -->     
-        <div    type="submit"
-                class="g-recaptcha" 
-                data-sitekey="6LedHKkiAAAAAL5ljYsGoimiPSQJRZ38ZM0609SU"
-                data-callback='onSubmit'>
-        </div>
-<!--         <button type="submit">Contact Guy</button> -->
+        <button type="submit">Contact Guy</button>
     </form>
   </div>
 </div>
