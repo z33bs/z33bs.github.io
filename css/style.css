@@ -42,8 +42,8 @@ abbr[title] {
   cursor: help;
 }
 
-.big-text {
-  font-size: 2em;
+.bigtext {
+  font-size: 1.5em;
 }
 
 /* Header */
