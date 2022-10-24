@@ -1,6 +1,15 @@
 ---
 layout: main
 ---
+<head>
+<!-- reCaptcha   -->
+ <script src="https://www.google.com/recaptcha/api.js"></script>
+ <script>
+   function onSubmit(token) {
+     document.getElementById("demo-form").submit();
+   }
+ </script>
+</head>
 
 {% include header.html %}
 <!-- https://web3forms.com -->
