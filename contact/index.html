@@ -24,7 +24,8 @@ layout: min
          <label for="message">Message:      </label>
          <textarea name="message" required></textarea>
         </div>
-        <input type="hidden" name="redirect" value="https://web3forms.com/success">
+<!--         <input type="hidden" name="redirect" value="https://web3forms.com/success"> -->
+        <input type="hidden" name="redirect" value="{{ '/contact-success/' | relative_url }}">    
         </br>
         <button type="submit">Contact Guy</button>
     </form>
