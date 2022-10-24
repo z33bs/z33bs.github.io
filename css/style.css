@@ -6,7 +6,7 @@
 
 html, body {
   font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 18px;
+  font-size: 12px;
   color: #807066;
   background: #fff5e5;
 }
@@ -40,6 +40,10 @@ h1 {
 abbr[title] {
   border-bottom: 1px solid #ddd;
   cursor: help;
+}
+
+.big-text {
+  font-size: 2em;
 }
 
 /* Header */
