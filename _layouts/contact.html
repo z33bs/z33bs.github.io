@@ -20,20 +20,22 @@ layout: main
     <form id="contact-form" action="https://api.web3forms.com/submit" method="POST">
 <!-- NB - MY OWN ACCESS KEY HERE         -->        
         <input type="hidden" name="access_key" value="6a366f03-15c4-4ac9-8221-1e04db2ed6e5">
-<!-- reCaptcha v2  KEY HERE         -->
-        <div ></div>
-        <br/>      
+
         <label for="">Name</label>
         <input type="text" name="name" required>
+
         <label for="">Email</label>
         <input type="email" name="email" required>
+        
         <label for="">Message</label>
         <textarea name="message" required></textarea>
+        
         <input type="hidden" name="redirect" value="https://web3forms.com/success">
 
+<!-- reCaptcha v2  KEY HERE         -->     
         <button type="submit"
                 class="g-recaptcha" 
-                data-sitekey="6LedHKkiAAAAAL5ljYsGoimiPSQJRZ38ZM0609SU"
+                data-sitekey="6LdNUqoiAAAAAObY6kB601TdyFK-7pbQgiMdLjfd"
                 data-callback='onSubmit' 
                 data-action='submit'>
          Contact Guy
