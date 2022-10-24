@@ -4,12 +4,24 @@
   box-sizing: border-box;
 }
 
-html, body, button {
+html, body {
   font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 18px;
   color: #807066;
   background: #fff5e5;
 }
+
+button {
+    background-color:#807066;
+    color: #fff;
+    border:none;
+    border-radius:10px;
+  }
+
+button:hover {
+      background-color:#f83;
+      transition: 0.7s;
+  }
 
 a {
   color: #f83;
