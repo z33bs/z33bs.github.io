@@ -20,16 +20,18 @@ layout: main
     <form id="contact-form" action="https://api.web3forms.com/submit" method="POST">
 <!-- NB - MY OWN ACCESS KEY HERE         -->        
         <input type="hidden" name="access_key" value="6a366f03-15c4-4ac9-8221-1e04db2ed6e5">
-
+        <div>
         <label for="">Name</label>
         <input type="text" name="name" required>
-
+        </div>
+        <div>
         <label for="">Email</label>
         <input type="email" name="email" required>
-        
+        </div>
+        <div>
         <label for="">Message</label>
         <textarea name="message" required></textarea>
-        
+        </div>
         <input type="hidden" name="redirect" value="https://web3forms.com/success">
 
 <!-- reCaptcha v2  KEY HERE         -->     
