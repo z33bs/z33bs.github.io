@@ -17,7 +17,14 @@ layout: main
         <textarea name="message" required></textarea>
         <input type="hidden" name="redirect" value="https://web3forms.com/success">
 
-        <button type="submit">Submit Form</button>
+        <button 
+                type="submit"
+                class="g-recaptcha"
+                data-sitekey="6LdHm6giAAAAAMnzyAmWNEYtYoHReKADsUZc4dcR" 
+                data-callback='onSubmit' 
+                data-action='submit'>
+          Submit Form
+        </button>
     </form>
   </div>
 </div>
