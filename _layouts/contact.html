@@ -1,7 +1,8 @@
 ---
 layout: main
 ---
-<head>
+
+{% include header.html %}
 <!-- reCaptcha   -->
  <script src="https://www.google.com/recaptcha/api.js"></script>
  <script>
@@ -9,9 +10,7 @@ layout: main
      document.getElementById("demo-form").submit();
    }
  </script>
-</head>
 
-{% include header.html %}
 <!-- https://web3forms.com -->
 <!-- API - with personalised access key -->
 <section class="intro animated fadeInUp">
