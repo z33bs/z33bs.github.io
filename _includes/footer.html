@@ -2,15 +2,15 @@
   <div class="grid">
     <div class="unit whole center-on-mobiles">
       <hr>
-      <p>Concious investing for a better world <i class="fa-solid fa-feather-pointed color-accent"></i>
-         <span class="align-right"><i class="fa-solid fa-share share-button"></i></span>
+        <div style="float:left">Concious investing for a better world <i class="fa-solid fa-feather-pointed color-accent"></i></div>
+        <div style="float:right"><i class="fa-solid fa-share sharButton"></i></div>
       </p>
     </div>
   </div>
 </footer>
 
 <script>
-  share-button.addEventListener('click', event => {
+  shareButton.addEventListener('click', event => {
   if (navigator.share) {
     navigator.share({
       title: 'Guy Antoine e-Card',
