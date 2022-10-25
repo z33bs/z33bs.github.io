@@ -142,6 +142,7 @@ nav li {
   -webkit-transition: color .25s;
   transition: color .25s;
   text-decoration: none;
+  target="_blank"; /*  open in new tab  */
 }
 
 .contact i {
