@@ -39,6 +39,10 @@ a:hover {
   color: #f83;
 }
 
+.unstyled-anchor {
+  text-decoration: none
+}
+
 /* p a {
   color: #444;
   border-bottom: 1px solid #f83;
@@ -71,10 +75,6 @@ abbr[title] {
   border-radius: 50%;
   box-shadow: 0 0 0 3px #fff, 0 3px 10px rgba(0,0,0,.1);
   vertical-align: middle;
-}
-
-.avatar a {
-    text-decoration: none;
 }
 
 .id {
