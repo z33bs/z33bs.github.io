@@ -149,6 +149,10 @@ nav li {
   text-decoration: none;
 }
 
+.contact a:hover {
+  color: #f83;
+}
+  
 .contact i {
   width: 32px;
   display: block;
