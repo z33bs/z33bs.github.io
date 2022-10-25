@@ -30,16 +30,20 @@ hr {
 
 a {
   text-decoration: underline;
-  text-decoration-color: #fff;
+/*   text-decoration-color: #fff; */
   text-decoration-skip-ink: auto;
-/*   text-decoration-style: dotted; */
+  text-decoration-style: dotted;
 }
 
-p a {
+a:hover {
+  color: #f83;
+}
+
+/* p a {
   color: #444;
   border-bottom: 1px solid #f83;
 }
-
+ */
 h1 {
   font-weight: normal;
 }
@@ -137,15 +141,12 @@ nav li {
   text-shadow: 0 1px 0 #fff;
   -webkit-transition: color .25s;
   transition: color .25s;
+  text-decoration: none;
 }
 
 .contact i {
   width: 32px;
   display: block;
-}
-
-.contact a:hover {
-  color: #f83;
 }
 
 @media (min-width: 380px) and (max-width: 568px){
