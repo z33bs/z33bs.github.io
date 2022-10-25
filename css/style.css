@@ -29,8 +29,10 @@ hr {
 }
 
 a {
-  color: #f83;
-  text-decoration: none;
+  text-decoration: underline;
+  text-decoration-color: #fff;
+  text-decoration-skip-ink: auto;
+/*   text-decoration-style: dotted; */
 }
 
 p a {
