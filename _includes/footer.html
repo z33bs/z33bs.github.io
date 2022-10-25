@@ -21,6 +21,8 @@
     .catch(console.error);
   } else {
     // fallback if Web Share not supported
+    navigator.clipboard.writeText("https://guy.antoine.ink");
+    alert("Shareable link copied to clipboard");
   }
 });
 </script>
