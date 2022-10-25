@@ -7,3 +7,19 @@
     </div>
   </div>
 </footer>
+
+<script>
+  shareButton.addEventListener('click', event => {
+  if (navigator.share) {
+    navigator.share({
+      title: 'Guy Antoine e-Card',
+      url: 'https://guy.antoine.ink'
+    }).then(() => {
+      console.log('Thanks for sharing!');
+    })
+    .catch(console.error);
+  } else {
+    // fallback if Web Share not supported
+  }
+});
+</script>
