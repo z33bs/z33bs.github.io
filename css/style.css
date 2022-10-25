@@ -73,6 +73,10 @@ abbr[title] {
   vertical-align: middle;
 }
 
+.avatar a {
+    text-decoration: none;
+}
+
 .id {
   text-align: center;
 }
