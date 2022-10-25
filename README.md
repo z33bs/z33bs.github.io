@@ -25,5 +25,11 @@ Uses [Jekyl](https://jekyllrb.com/docs/step-by-step/01-setup/) with the followin
 * index for search engines (SEO)
   * don't index contact page and any other unwanted pages
 * consider https://prerender.io/pricing/ or equivalent to make static pages from JS generated for more SEO friendly website
-* 
+
+## Todo content
+* toggle small text box blurb that appears when hover / click on Investor | Advisor | Developer
+  * mobile second press will make disappear or pressing another will replace blurb
+  * more... link option to take to full page
+
+
 
