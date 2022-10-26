@@ -56,14 +56,15 @@ render_liquid: true
   const els = document.getElementsByClassName('delay-load');
 
   
-    els.forEach( el => {
+    for ( el in els) {
       setTimeout(() => {
-        el.style.visibility = 'visible'; //takes space, display does not
-      // 👇️ if you used `display` to hide element
-      // el.style.display = 'block';
+        el.style.visibility = 'visible'; 
       }, 2000); // 👈️ delay in milliseconds
-    });
-
+    }
+    
+    // visibility attribute takes space on page, display does not
+    // 👇️ if you used `display` to hide element
+    // el.style.display = 'block';
 </script>
   
 <!-- Add tracking ID's to _config.yml -->
