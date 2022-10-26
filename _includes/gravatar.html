@@ -11,17 +11,3 @@
     </div>
   </a>
 </h1>
-
-<script>
-  const els = document.getElementByClassName('delay-load');
-
-  
-    els.forEach( el => {
-      setTimeout(() => {
-        el.style.visibility = 'visible'; //takes space, display does not
-      // 👇️ if you used `display` to hide element
-      // el.style.display = 'block';
-      }, 2000); // 👈️ delay in milliseconds
-    });
-
-</script>
