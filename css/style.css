@@ -65,8 +65,8 @@ abbr[title] {
 /* Forms */
 .neat-form form  { display: table;      }
 .neat-form p     { display: table-row;  }
-.neat-form label { display: table-cell; }
-.neat-form input, textarea { display: table-cell; }
+.neat-form input, textarea, label { display: table-cell; }
+.neat-form textarea { width: 100% }
 
 /* Header */
 
