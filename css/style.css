@@ -69,7 +69,7 @@ abbr[title] {
 .neat-form label { display: table-cell; }
 .neat-form textarea { 
   display: table-cell;
-/*   width: 100%;  */
+  width: 100%; 
 }
 
 /* Header */
