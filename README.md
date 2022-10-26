@@ -14,6 +14,7 @@ Uses [Jekyl](https://jekyllrb.com/docs/step-by-step/01-setup/) with the followin
 * Try it editor
   * https://www.w3schools.com/html/tryit.asp?filename=tryhtml_default
   * also available for css and js etc
+ * jsfiddle.net
 
 ## Todo
 * modernise
@@ -25,6 +26,12 @@ Uses [Jekyl](https://jekyllrb.com/docs/step-by-step/01-setup/) with the followin
 * index for search engines (SEO)
   * don't index contact page and any other unwanted pages
 * consider https://prerender.io/pricing/ or equivalent to make static pages from JS generated for more SEO friendly website
+* more elegant delay load by className
+  * sequence loading of social tags in header
+* wiggle contact envelope (https://codepen.io/theDeanH/pen/zBZXLN)
+  * on hover and on load (force action hover with js?)
+  * perhaps put all animate on load into single js
+* ?animate meteor flying in with offsets?
 
 ## Todo content
 * toggle small text box blurb that appears when hover / click on Investor | Advisor | Developer
