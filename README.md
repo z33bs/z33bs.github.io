@@ -31,7 +31,7 @@ Uses [Jekyl](https://jekyllrb.com/docs/step-by-step/01-setup/) with the followin
 * wiggle contact envelope (https://codepen.io/theDeanH/pen/zBZXLN)
   * on hover and on load (force action hover with js?)
   * perhaps put all animate on load into single js
-* ?animate meteor flying in with offsets?
+* ?animate meteor flying in with css animation?
 
 ## Todo content
 * toggle small text box blurb that appears when hover / click on Investor | Advisor | Developer
