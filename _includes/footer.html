@@ -2,7 +2,7 @@
   <div class="grid">
     <div class="unit whole center-on-mobiles">
       <hr>
-      <div style="float:left">Conscious investing for a better world <i class="delay-load fa-solid fa-feather-pointed color-accent"></i></div>
+      <div style="float:left">Conscious investing for a better world <i id="delay-feather" class="delay-load fa-solid fa-feather-pointed color-accent"></i></div>
       <a style="float:right" id="shareButton">share <i class="fa-solid fa-share"></i></a>
     </div>
   </div>
@@ -29,4 +29,18 @@
         });    
   }
   });
+</script>
+
+<!-- Delay load script   -->
+<script>
+//   Works with delay-load class in CSS to make elements visible after specified delay
+  const el = document.getElementById('delay-feather');
+
+  setTimeout(() => {
+    el.style.visibility = 'visible'; 
+  }, 2000); // 👈️ delay in milliseconds
+
+// visibility attribute takes space on page, display does not
+// 👇️ if you used `display` to hide element
+// el.style.display = 'block';
 </script>
