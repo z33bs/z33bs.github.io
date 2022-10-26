@@ -75,6 +75,11 @@ abbr[title] {
   width: 100%; 
 }
 
+/* Element hidden but takes space - JS script will delay load */
+.delay-load {
+  visibility: hidden;
+}
+
 /* Header */
 
 .avatar,
