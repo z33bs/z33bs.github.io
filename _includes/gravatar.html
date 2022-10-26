@@ -6,8 +6,18 @@
     </div>
     <div class="id name">
 <!--           <span class="name">Guy Antoin</span> -->
-      <p>Guy Ant<i class="fa-solid fa-meteor color-accent"></i>ine</p>
+      <p>Guy Ant<i class="delay-load fa-solid fa-meteor color-accent"></i>ine</p>
       <!-- <span class="handle">@zeebs</span> -->
     </div>
   </a>
 </h1>
+
+<script>
+  const el = document.getElementByClassName('delay-load');
+
+  setTimeout(() => {
+    el.style.visibility = 'visible'; //takes space, display does not
+  // 👇️ if you used `display` to hide element
+  // el.style.display = 'block';
+}, 2000); // 👈️ delay in milliseconds
+</script>
