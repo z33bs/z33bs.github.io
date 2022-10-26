@@ -6,8 +6,23 @@
     </div>
     <div class="id name">
 <!--           <span class="name">Guy Antoin</span> -->
-      <p>Guy Ant<i class="delay-load fa-solid fa-meteor color-accent"></i>ine</p>
+      <p>Guy Ant<i id="delay-meteor" class="delay-load fa-solid fa-meteor color-accent"></i>ine</p>
       <!-- <span class="handle">@zeebs</span> -->
     </div>
   </a>
 </h1>
+
+<!-- Delay load script   -->
+<script>
+//   Works with delay-load class in CSS to make elements visible after specified delay
+  const el = document.getElementById('delay-meteor');
+
+  setTimeout((el) => {
+    el.style.visibility = 'visible'; 
+  }, 1000); // 👈️ delay in milliseconds
+
+// visibility attribute takes space on page, display does not
+// 👇️ if you used `display` to hide element
+// el.style.display = 'block';
+</script>
+
