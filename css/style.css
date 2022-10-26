@@ -66,7 +66,10 @@ abbr[title] {
 .neat-form form  { display: table;      }
 .neat-form p     { display: table-row;  }
 .neat-form input { display: table-cell; }
-.neat-form label { display: table-cell; }
+.neat-form label { 
+  display: table-cell;
+  padding: 0.4em
+}
 .neat-form textarea { 
   display: table-cell;
   width: 100%; 
