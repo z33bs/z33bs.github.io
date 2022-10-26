@@ -12,19 +12,18 @@ layout: min
     <div>
       <p>Complete this form to send an email direct to my inbox <i class="fa-solid fa-rocket"></i></p>
     </div>
-    <form id="contact-form" action="https://api.web3forms.com/submit" method="POST">
+    <form class="neat-form" id="contact-form" action="https://api.web3forms.com/submit" method="POST">
 <!-- NB - MY OWN ACCESS KEY HERE         -->        
         <input type="hidden" name="access_key" value="6a366f03-15c4-4ac9-8221-1e04db2ed6e5">
         <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
-        <div>
-         <label for="email">Your email:</label>
-         <input type="email" name="email" required>
-        </div>
-        </br>
-        <div>
-         <label for="message">Message:      </label>
-         <textarea name="message" required></textarea>
-        </div>
+        <p class="neat-form">
+         <label class="neat-form" for="email">Your email:</label>
+         <input class="neat-form" type="email" name="email" required>
+        </p>
+        <p class="neat-form">
+         <label class="neat-form" for="message">Message:      </label>
+         <textarea class="neat-form" name="message" required></textarea>
+        </p>
 <!--         <input type="hidden" name="redirect" value="https://web3forms.com/success"> -->
         <input type="hidden" name="redirect" value="https://guy.antoine.ink/contact-success/">    
         </br>
