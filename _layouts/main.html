@@ -50,6 +50,22 @@ render_liquid: true
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
   <script>window.jQuery || document.write('<script src="{{ site.url }}/components/jquery/jquery.min.js"><\/script>')</script>
   
+<!-- Delay load script   -->
+  <script>
+//   Works with delay-load class in CSS to make elements visible after specified delay
+  const els = document.getElementByClassName('delay-load');
+
+  
+    els.forEach( el => {
+      setTimeout(() => {
+        el.style.visibility = 'visible'; //takes space, display does not
+      // 👇️ if you used `display` to hide element
+      // el.style.display = 'block';
+      }, 2000); // 👈️ delay in milliseconds
+    });
+
+</script>
+  
 <!-- Add tracking ID's to _config.yml -->
   <!-- Tracking: https://secure.gaug.es/ -->
   <script type="text/javascript">
