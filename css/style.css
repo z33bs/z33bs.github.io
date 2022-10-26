@@ -62,6 +62,12 @@ abbr[title] {
   font-size: 1.5em;
 }
 
+/* Forms */
+.neat-form form  { display: table;      }
+.neat-form p     { display: table-row;  }
+.neat-form label { display: table-cell; }
+.neat-form input { display: table-cell; }
+
 /* Header */
 
 .avatar,
