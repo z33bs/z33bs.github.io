@@ -171,7 +171,7 @@ nav li {
   color: #f83;
 }
   
-.contact i {
+.contact i, svg {
   width: 32px;
   display: block;
 }
