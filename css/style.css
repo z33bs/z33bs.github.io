@@ -24,7 +24,7 @@ button:hover {
   }
 
 hr {
-  border: 0.1em solid #807066;
+  border: 0.1em solid #771DA3;
   background-color: #807066;
 }
 
@@ -168,7 +168,7 @@ nav li {
 }
 
 .contact a:hover {
-  color: #f83;
+  color: #771DA3;
 }
   
 .contact i, svg {
