@@ -176,6 +176,10 @@ nav li {
   display: block;
 }
 
+.contact svg {
+  display: block;
+}
+
 @media (min-width: 380px) and (max-width: 568px){
   .contact {
     display: inline-block;
