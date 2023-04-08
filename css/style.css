@@ -19,7 +19,7 @@ button {
   }
 
 button:hover {
-      background-color:#f83;
+      background-color:#771DA3;
       transition: 0.7s;
   }
 
@@ -37,7 +37,7 @@ a {
 }
 
 a:hover {
-  color: #f83;
+  color: #771DA3;
 }
 
 .unstyled-anchor {
@@ -46,7 +46,7 @@ a:hover {
 
 /* p a {
   color: #444;
-  border-bottom: 1px solid #f83;
+  border-bottom: 1px solid #771DA3;
 }
  */
 h1 {
@@ -237,5 +237,5 @@ footer {
 }
 
 .color-accent {
-  color: #f83;
+  color: #771DA3;
 }
